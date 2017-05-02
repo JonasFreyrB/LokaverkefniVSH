@@ -1,3 +1,44 @@
 body{
+	max-width: 60em;
+	margin: 0 auto;
+	
+}
+header{
 	background-color: grey;
+	padding: 1px;
+}
+.fl-left{
+	
+	flex: 1 1 0;
+
+	
+}
+
+.fl-right{
+	
+	flex: 1 1 0;
+}
+.mid{
+	flex: 2 2 1em;
+	
+
+}
+nav{
+	order: 1;
+}
+header{
+	order: 2;
+}
+section{
+	order: 3;
+	background-color: ;
+}
+footer{
+	order:4;
+}
+article{
+	float: left;
+}
+aside{
+	float: right;
 }
