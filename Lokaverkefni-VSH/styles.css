@@ -1,4 +1,49 @@
+html{
+	font-family: sans-serif;
+}
+body{
+	max-width: 60em;
+	margin: 0 auto;
+}
 header{
+	padding: 0;
+	position: relative;
+	height: 100%;
+	display: flex;
 	background-color: grey;
 	padding-left: 15px;
+}
+ul{
+	display: flex;
+	flex-flow: row;
+	border: 1px solid black;
+	list-style: none;
+	position:relative;
+	justify-content: center;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+
+li {
+	border-left: 1px solid black;
+	text-decoration: none;
+	text-align: center;
+	padding: 3px;
+}
+li:last-child{
+	border-right: 1px solid black;
+}
+nav {
+	display: flex;
+}
+header,nav,section{
+    flex: 1 1 0;
+    flex-flow: column;
+  }
+.haegri{
+	display: flex;
+	flex-flow: column;
+
 }
