@@ -1,17 +1,26 @@
 body{
+	background-image: url("drift.jpg");
+
+}
+.body{
 	max-width: 60em;
 	margin: 0 auto;
-	
+	background-color: rgba();
 }
+
 header{
-	background-color: grey;
+	background-color: ;
 	padding: 1px;
 }
 .fl-left{
 	
 	flex: 1 1 0;
 
+
 	
+}
+.padding{
+	padding: 8px;
 }
 
 .fl-right{
@@ -28,17 +37,69 @@ nav{
 }
 header{
 	order: 2;
+	text-align: center;
 }
 section{
 	order: 3;
-	background-color: ;
+
+	display: flex;
+	flex-flow: row;
+	background-color: rgba(0,0,0, 0.4);
+	color: white;
+	padding: 20px;
+	font-family: 'Poiret One', cursive;
+	
+
 }
 footer{
 	order:4;
 }
 article{
 	float: left;
+
 }
 aside{
 	float: right;
+}
+nav{
+	order: 1;
+	background-color: grey ;
+	padding: 0px;
+}
+.topmenu{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+
+	padding: 1px;
+	margin: 0;
+	list-style: none;
+}
+.topmenu li{
+	border:0;
+	border-left: 1px solid white;
+	padding: 5px;
+}
+.topmenu li:last-child{
+	border-right: 1px solid white;
+}
+.topmenu a{
+	display: block;
+	color:white;
+	text-decoration: none;
+	padding:8px;
+}
+
+h1 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+/* Standard syntax */
+@keyframes example {
+    0% {left:-1500px; top:0px;}
+    100% {left:0px; top:0px;}
 }
