@@ -1,0 +1,97 @@
+
+nav{
+	margin: 0 auto;
+	background-color: grey;
+}
+
+a{
+	text-decoration: none;
+}
+li a{
+	color: white;
+}
+body{
+	background-image: url("drift2.jpg");
+	background-attachment: fixed;
+}
+ul{
+	display: flex;
+	flex-flow: row;
+	list-style: none;
+	position:relative;
+	justify-content: center;
+	margin: 0;
+}
+li {
+	border-left: 1px solid white;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px;
+	background-color: grey;
+}
+li:last-child{
+	border-right: 1px solid white;
+}
+header{
+	position: relative;
+	display: flex;
+	flex-flow: column;
+	max-width: 60em;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+form{
+	display: flex;
+	flex-flow: column;
+}
+div{
+	display: flex;
+	flex-flow: column;
+	width: 50%;
+}
+section{
+	color: white;
+	max-width: 60em;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row;
+	flex:1 1 0;
+	background-color: rgba(0,0,0, 0.4);
+	font-family: 'Poiret One', cursive;
+	padding: 20px;
+
+}
+@keyframes example {
+    0% {left:1500px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+h1 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@media screen and (max-width: 500px){
+	section{
+		display: flex;
+		flex-flow: column;
+	}
+}
+picture{
+	display: block;
+}
+img{
+	width: 100%;
+	height: auto;
+	border: 10px solid black;
+}
+
+p{
+	padding:35px;
+	font-size: 300%;
+}
+iframe{
+	width: 100%;
+	border: 10px solid black;
+}

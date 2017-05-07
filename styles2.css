@@ -1,3 +1,6 @@
+h1{
+	color: white;
+}
 body{
 	background-image: url("drift.jpg");
 
@@ -11,13 +14,10 @@ body{
 header{
 	background-color: ;
 	padding: 1px;
+
 }
 .fl-left{
-	
 	flex: 1 1 0;
-
-
-	
 }
 .padding{
 	padding: 8px;
@@ -34,6 +34,7 @@ header{
 }
 nav{
 	order: 1;
+
 }
 header{
 	order: 2;
@@ -65,6 +66,7 @@ nav{
 	order: 1;
 	background-color: grey ;
 	padding: 0px;
+	margin: 0;
 }
 .topmenu{
 	display: flex;

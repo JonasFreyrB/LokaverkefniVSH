@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Skráning</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 </head>
 <body>
@@ -13,16 +13,17 @@
 	<nav>
 		<ul>
 			<li><a href="../index2.html">Upplýsingar</a></li>
-			<li><a href="#">Forsíða</a></li>
+			<li><a href="../index3.html">Forsíða</a></li>
 		</ul>
 	</nav>
 	<section>
-	<fieldset>
+	
+	<div class="thing haegri">
 	<form>
-	<div>
 		<label>
 			Nafn
 			<input type="text" name="username" placeholder="Fullt nafn bílstjóra" required="">
+			<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 		</label>
 		<label>
 			Email
@@ -32,16 +33,22 @@
 			Símanúmer
 			<input type="text" pattern="\d{7}" name="phone-number" placeholder="Símanúmer" required>
 		</label>
-		<input class="margin central" type="submit" name="submit">
+		<input class="input" type="submit" name="submit">
+		</form>
 		</div>
-		<div class="haegri">
+		<div class="thing haegri">
+		<label>
 			<label>
 			Athugasemdir
 			<textarea name="comment"></textarea>
 			</label>
+			<p>
+				Til að sjá meiri upplýsingar ýta <a href="../index2.html">hér.</a><br>
+				Borgað er á staðnum.
+			</p>
+			</label>
 		</div>
-		</form>
-		</fieldset>
+		
 	</section>
 </body>
 </html>
